@@ -1,0 +1,73 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewpoint" content="with=device-width, initial- scale=1.0">
+	<title>My Gallary</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+	<section class="gal">
+		<nav>
+			<a href="index.htm"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+					<li><a href="experience.html">EXPERIENCE</a></li>
+					<li><a href="gallary.html">GALLRY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<li class="fa fa-bars" onclick="showMenu()"></li>
+		</nav>
+
+			<div class="gal-1">
+				<h1>Gallary</h1>
+			</div>
+		
+</section>
+
+
+<section>
+	<div class="gal-2">
+		<div><img src="images/4.jpeg"></div>
+		<div><img src="images/5.jpeg"></div><br>
+		<div><img src="images/6.jpeg"></div>
+		<div><img src="images/7.jpeg"></div><br>
+		<div><img src="images/8.jpeg"></div>
+		<div><img src="images/9.jpeg"></div><br>
+		<div><img src="images/10.jpeg"></div>
+	</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!------ JavaScript for toggle Menu----->
+<script>
+	
+	var navLinks = document.getElementByID("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

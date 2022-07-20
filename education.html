@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewpoint" content="with=device-width, initial- scale=1.0">
+	<title>My Education</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="edu">
+		<nav>
+			<a href="index.htm"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+					<li><a href="experience.html">EXPERIENCE</a></li>
+					<li><a href="gallary.html">GALLRY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<li class="fa fa-bars" onclick="showMenu()"></li>
+		</nav>
+
+	<div class="edu-1">
+		<h1><span>Education</span><br class="edu-2">EDUCATION IS FOUNDATION UPON WHICH I BUILD MY FUTURE</h1>
+	</div>
+
+  </section>
+
+
+  <section>
+	<div class="table-1">
+		<table class="content-table">
+			<thead>
+				<tr>
+					<th>No</th>
+					<th>University</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Sekolah Menengah Kebangsaan Pahi
+						<li>Year: 2017</li>
+						<li>SPM: 8As 1C</li>
+					</td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>Universiti Teknologi Mara Machang, Kelantan 
+						<li>Year: (2018-2021)</li>
+						<li>Diploma in Banking</li>
+						<li>Graduate with first class</li>
+					</td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>Universiti Teknologi Mara Kota Bharu,Kelantan
+						<li>Year: 2021- current</li>
+						<li>Bachelor in Business and Administration (Hons) Finance</li>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+</section>
+
+<!------ JavaScript for toggle Menu----->
+<script>
+	
+	var navLinks = document.getElementByID("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
